@@ -6,10 +6,11 @@ public class Main {
         //llamado de clases
         EdadPerros cacular = new EdadPerros();
         MillasAKm cal = new MillasAKm();
+        Descuentos desc = new Descuentos();
 
         //instancias de clases
-
         //cacular.calcularEdad();
         //cal.conversorKM();
+        desc.CalcularDescuentos();
     }
 }
