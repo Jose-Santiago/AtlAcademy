@@ -14,5 +14,6 @@ public class Descuentos {
 
         System.out.println("EL producto tiene un precio de: " + precioOri + " pesos, menos el descuento del " +
                 descuento + ", El precio final es de: " + precioFinal);
+        //fin
     }
 }
