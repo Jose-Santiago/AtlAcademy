@@ -1,7 +1,6 @@
-package Clase_5;
+package clase5;
 
 import java.util.Scanner;
-
 public class EdadPerros{
     public void calcularEdad(){
         Scanner sc = new Scanner(System.in);
