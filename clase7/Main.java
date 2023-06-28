@@ -5,15 +5,15 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner sc =new Scanner(System.in);
-        Integer numeros[] = new Integer[5];
+        int numeros[] = new int[5];
         System.out.println("El programa te permite Guardar 5 numero");
-        numeros[0] = sc.nextInt();
-        numeros[1] = sc.nextInt();
-        numeros[2] = sc.nextInt();
-        numeros[3] = sc.nextInt();
-        numeros[4] = sc.nextInt();
+        for (int i = 0; i < numeros.length; i++){
+            System.out.println("Agrega el " + (i+1) + " numero a guardar:");
+            numeros[i] = sc.nextInt();
+        }
+        for (int i = 0; i < numeros.length; i++){
+            System.out.println("El numero en la posicion " + i + " es: " + numeros[i]);
+        }
 
-        System.out.println("Los numeros guardados son: " + numeros[0] + ", " +
-                numeros[1] + ", " + numeros[2] + ", " + numeros[3] + ", " + numeros[4]);
     }
 }
